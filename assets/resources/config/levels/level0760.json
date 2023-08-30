@@ -1,0 +1,398 @@
+{
+  "level": [
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      3
+    ],
+    [
+      3
+    ],
+    [
+      3
+    ],
+    [
+      3
+    ],
+    [
+      2,
+      5,
+      4
+    ],
+    [
+      2,
+      5,
+      4
+    ],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      3
+    ],
+    [
+      3
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      2
+    ],
+    [
+      2,
+      5,
+      4
+    ],
+    [
+      2,
+      5,
+      4
+    ],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [
+      2,
+      5,
+      4
+    ],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      3
+    ],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [
+      2,
+      7,
+      5,
+      9
+    ],
+    [
+      2,
+      10,
+      5
+    ],
+    [
+      2
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      2,
+      11
+    ],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [
+      2,
+      5,
+      9
+    ],
+    [
+      2,
+      5,
+      9
+    ],
+    [
+      2
+    ],
+    [
+      2,
+      12
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [
+      2,
+      5,
+      9
+    ],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [
+      2,
+      13
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [
+      2,
+      14
+    ],
+    [
+      2,
+      14
+    ],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      3
+    ],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [
+      2,
+      15
+    ],
+    [
+      2,
+      14
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      3
+    ],
+    [
+      3
+    ],
+    [
+      3
+    ],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [
+      2,
+      14
+    ]
+  ],
+  "metadata": {
+    "editor_version": "2.19.5",
+    "game": "BlossomBlastSaga",
+    "level_hash": "232f286ec5865d191a10b8cd4247a640",
+    "tracking_id": 237514531
+  },
+  "properties": {
+    "game_mode": "COLLECT_FLOWERS",
+    "goal_1": "10",
+    "goal_2": "13",
+    "goal_3": "16",
+    "is_hard": false,
+    "nr_colors": "4",
+    "nr_moves": "20",
+    "random_seed": "0",
+    "star_1": "8000",
+    "star_2": "79940",
+    "star_3": "103030",
+    "tutorial_ids": ""
+  },
+  "tiles": [
+    {
+      "max_start_strength": "5",
+      "min_start_strength": "3",
+      "type": "bud_spawner"
+    },
+    {
+      "type": "normal_slot"
+    },
+    {
+      "type": "water_slot"
+    },
+    {
+      "location": "west",
+      "type": "wall",
+      "wall_type": "wall"
+    },
+    {
+      "location": "south",
+      "type": "wall",
+      "wall_type": "wall"
+    },
+    {
+      "teleport_id": "1",
+      "type": "teleport_land_out"
+    },
+    {
+      "health": "3",
+      "type": "pot"
+    },
+    {
+      "color": "4",
+      "type": "exploding_mushroom"
+    },
+    {
+      "location": "east",
+      "type": "wall",
+      "wall_type": "wall"
+    },
+    {
+      "teleport_id": "1",
+      "type": "teleport_land_in"
+    },
+    {
+      "color": "2",
+      "type": "exploding_mushroom"
+    },
+    {
+      "teleport_id": "2",
+      "type": "teleport_land_out"
+    },
+    {
+      "teleport_id": "2",
+      "type": "teleport_land_in"
+    },
+    {
+      "color": "1",
+      "type": "exploding_mushroom"
+    },
+    {
+      "color": "3",
+      "type": "exploding_mushroom"
+    }
+  ]
+}

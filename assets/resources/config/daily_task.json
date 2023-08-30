@@ -1,0 +1,92 @@
+{
+  "1": {
+    "count": 50,
+    "desc": "Hái $1 bông hoa màu $2",
+    "id": 1,
+    "max_level": 50000,
+    "min_level": 1,
+    "name": "Hái hoa $2",
+    "rate": 10,
+    "type": "flower_blast"
+  },
+  "10": {
+    "count": 10,
+    "desc": "Dọn $1 bãi nhớt của ốc sên",
+    "id": 10,
+    "max_level": 50000,
+    "min_level": 241,
+    "name": "Dọn nhớt ốc sên",
+    "rate": 2,
+    "type": "slime"
+  },
+  "2": {
+    "count": 10,
+    "desc": "Ngắt $1 nụ hoa màu $2",
+    "id": 2,
+    "max_level": 50000,
+    "min_level": 2,
+    "name": "Ngắt nụ $2",
+    "rate": 5,
+    "type": "flower_big_blast"
+  },
+  "3": {
+    "count": 20,
+    "desc": "Phá hủy $1 chậu hoa",
+    "id": 3,
+    "max_level": 50000,
+    "min_level": 6,
+    "name": "Phá hủy chậu hoa",
+    "rate": 3,
+    "type": "pot"
+  },
+  "4": {
+    "count": 15,
+    "desc": "Phá $1 khối băng",
+    "id": 4,
+    "max_level": 50000,
+    "min_level": 9,
+    "name": "Phá băng",
+    "rate": 2,
+    "type": "green_house"
+  },
+  "5": {
+    "count": 20,
+    "desc": "Dọn $1 bụi cỏ",
+    "id": 5,
+    "max_level": 50000,
+    "min_level": 21,
+    "name": "Dọn cỏ",
+    "rate": 2,
+    "type": "grass"
+  },
+  "6": {
+    "count": 10,
+    "desc": "Phá $1 lỗ chuột",
+    "id": 6,
+    "max_level": 50000,
+    "min_level": 41,
+    "name": "Phá lỗ chuột",
+    "rate": 2,
+    "type": "hole"
+  },
+  "7": {
+    "count": 8,
+    "desc": "Đuổi $1 con gà",
+    "id": 7,
+    "max_level": 50000,
+    "min_level": 81,
+    "name": "Đuổi gà",
+    "rate": 2,
+    "type": "crow"
+  },
+  "9": {
+    "count": 10,
+    "desc": "Diệt $1 cây nấm",
+    "id": 9,
+    "max_level": 50000,
+    "min_level": 281,
+    "name": "Diệt nấm",
+    "rate": 2,
+    "type": "mushroom"
+  }
+}

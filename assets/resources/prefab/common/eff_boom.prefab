@@ -1,0 +1,197 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "",
+    "data": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_active": true,
+    "_activeInHierarchy": false,
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0
+    },
+    "_childArrivalOrder": 1,
+    "_color": {
+      "__type__": "cc.Color",
+      "a": 255,
+      "b": 255,
+      "g": 255,
+      "r": 255
+    },
+    "_components": [
+      {
+        "__id__": 2
+      }
+    ],
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "height": 0,
+      "width": 0
+    },
+    "_cullingMask": 1,
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_eventMask": 0,
+    "_groupIndex": 0,
+    "_id": 1,
+    "_is3DNode": false,
+    "_localMatDirty": 65535,
+    "_localZOrder": 0,
+    "_name": "eff_boom",
+    "_objFlags": 0,
+    "_opacity": 255,
+    "_parent": null,
+    "_prefab": {
+      "__id__": 3
+    },
+    "_renderFlag": 108,
+    "_reorderChildDirty": false,
+    "_skewX": 0,
+    "_skewY": 0,
+    "_trs": {
+      "__type__": "TypedArray",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "ctor": "Float64Array"
+    },
+    "_worldMatDirty": true,
+    "groupIndex": 0
+  },
+  {
+    "___ID___": 2,
+    "____nid____": 2,
+    "__type__": "cc.ParticleSystem",
+    "_aspectRatio": 1,
+    "_custom": true,
+    "_dstBlendFactor": 1,
+    "_enabled": true,
+    "_endColor": {
+      "__type__": "cc.Color",
+      "a": 127,
+      "b": 0,
+      "g": 189,
+      "r": 255
+    },
+    "_endColorVar": {
+      "__type__": "cc.Color",
+      "a": 0,
+      "b": 0,
+      "g": 0,
+      "r": 0
+    },
+    "_file": {
+      "__uuid__": "4203e3d2-cfcf-4b59-a661-871fd0bf32d3"
+    },
+    "_focused": false,
+    "_id": 2,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_name": "eff_result_penshe_2<ParticleSystem>",
+    "_objFlags": 0,
+    "_positionType": 1,
+    "_spriteFrame": {
+      "__uuid__": "3a8c2973-5328-4cf9-ab2c-312b9ac875aa"
+    },
+    "_srcBlendFactor": 770,
+    "_startColor": {
+      "__type__": "cc.Color",
+      "a": 255,
+      "b": 255,
+      "g": 255,
+      "r": 255
+    },
+    "_startColorVar": {
+      "__type__": "cc.Color",
+      "a": 0,
+      "b": 255,
+      "g": 255,
+      "r": 255
+    },
+    "_stopped": true,
+    "_vertsDirty": true,
+    "angle": 90,
+    "angleVar": 360,
+    "autoRemoveOnFinish": false,
+    "duration": 0.1,
+    "emissionRate": 200,
+    "emitterMode": 1,
+    "endRadius": 200,
+    "endRadiusVar": 0,
+    "endSize": 0,
+    "endSizeVar": 0,
+    "endSpin": 0,
+    "endSpinVar": 0,
+    "gravity": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "life": 0.3,
+    "lifeVar": 0.2,
+    "node": {
+      "__id__": 1
+    },
+    "playOnLoad": true,
+    "posVar": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "preview": true,
+    "radialAccel": 0,
+    "radialAccelVar": 0,
+    "rotatePerS": 0,
+    "rotatePerSVar": 0,
+    "rotationIsDir": false,
+    "sourcePos": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "speed": 82,
+    "speedVar": 271,
+    "startRadius": 0,
+    "startRadiusVar": 0,
+    "startSize": 80,
+    "startSizeVar": 30,
+    "startSpin": 0,
+    "startSpinVar": 0,
+    "tangentialAccel": 0,
+    "tangentialAccelVar": 0,
+    "totalParticles": 100
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "asset": null,
+    "fileId": "",
+    "root": {
+      "__id__": 1
+    }
+  }
+]

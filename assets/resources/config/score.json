@@ -1,0 +1,27 @@
+{
+  "1": {
+    "desc": "Mỗi bước còn lại tăng điểm",
+    "id": 1,
+    "num": 1000
+  },
+  "2": {
+    "desc": "Điểm mỗi cấp độ",
+    "id": 2,
+    "num": 10
+  },
+  "3": {
+    "desc": "điểm mỗi vụ nổ",
+    "id": 3,
+    "num": 100
+  },
+  "4": {
+    "desc": "Ném bom liên tục tăng điểm mỗi lần",
+    "id": 4,
+    "num": 10
+  },
+  "5": {
+    "desc": "điểm siêu nổ",
+    "id": 5,
+    "num": 1000
+  }
+}

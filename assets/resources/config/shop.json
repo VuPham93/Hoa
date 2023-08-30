@@ -1,0 +1,122 @@
+{
+  "1": {
+    "coin": 200,
+    "id": 1,
+    "item1": 1,
+    "item2": 1,
+    "item3": 1,
+    "item4": 0,
+    "name": "Gói quà tân thủ",
+    "price": 6
+  },
+  "10": {
+    "coin": 2500,
+    "id": 10,
+    "item1": 0,
+    "item2": 0,
+    "item3": 0,
+    "item4": 0,
+    "name": "",
+    "price": 198
+  },
+  "11": {
+    "coin": 5000,
+    "id": 11,
+    "item1": 0,
+    "item2": 0,
+    "item3": 0,
+    "item4": 0,
+    "name": "",
+    "price": 348
+  },
+  "12": {
+    "coin": 10000,
+    "id": 12,
+    "item1": 0,
+    "item2": 0,
+    "item3": 0,
+    "item4": 0,
+    "name": "",
+    "price": 648
+  },
+  "2": {
+    "coin": 500,
+    "id": 2,
+    "item1": 2,
+    "item2": 2,
+    "item3": 2,
+    "item4": 0,
+    "name": "Gói quà nâng cao",
+    "price": 68
+  },
+  "3": {
+    "coin": 1000,
+    "id": 3,
+    "item1": 4,
+    "item2": 4,
+    "item3": 4,
+    "item4": 2,
+    "name": "Gói quà cao cấp",
+    "price": 128
+  },
+  "4": {
+    "coin": 2500,
+    "id": 4,
+    "item1": 8,
+    "item2": 8,
+    "item3": 8,
+    "item4": 6,
+    "name": "túi quà sang trọng",
+    "price": 258
+  },
+  "5": {
+    "coin": 5000,
+    "id": 5,
+    "item1": 18,
+    "item2": 18,
+    "item3": 18,
+    "item4": 12,
+    "name": "tối cao",
+    "price": 518
+  },
+  "6": {
+    "coin": 6500,
+    "id": 6,
+    "item1": 25,
+    "item2": 25,
+    "item3": 25,
+    "item4": 18,
+    "name": "Gói vô địch",
+    "price": 648
+  },
+  "7": {
+    "coin": 100,
+    "id": 7,
+    "item1": 0,
+    "item2": 0,
+    "item3": 0,
+    "item4": 0,
+    "name": "",
+    "price": 12
+  },
+  "8": {
+    "coin": 500,
+    "id": 8,
+    "item1": 0,
+    "item2": 0,
+    "item3": 0,
+    "item4": 0,
+    "name": "",
+    "price": 50
+  },
+  "9": {
+    "coin": 1000,
+    "id": 9,
+    "item1": 0,
+    "item2": 0,
+    "item3": 0,
+    "item4": 0,
+    "name": "",
+    "price": 98
+  }
+}

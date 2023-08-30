@@ -1,0 +1,53 @@
+{
+  "migrate-history": [
+    "cloud-function"
+  ],
+  "group-list": [
+    "default",
+    "room_item",
+    "room_pointer"
+  ],
+  "collision-matrix": [
+    [
+      false
+    ],
+    [
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false
+    ]
+  ],
+  "excluded-modules": [
+    "3D Physics/Builtin"
+  ],
+  "preview-port": 7456,
+  "design-resolution-width": 960,
+  "design-resolution-height": 640,
+  "fit-width": false,
+  "fit-height": true,
+  "use-project-simulator-setting": false,
+  "simulator-orientation": false,
+  "use-customize-simulator": true,
+  "simulator-resolution": {
+    "width": 960,
+    "height": 640
+  },
+  "clear-simulator-cache": true,
+  "facebook": {
+    "appID": "669462785216004",
+    "audience": {
+      "enable": true
+    },
+    "enable": true,
+    "live": {
+      "enable": true
+    }
+  },
+  "start-scene": "0b2f46c3-823e-4abe-b80b-9e6ac5ded1e0",
+  "last-module-event-record-time": 1692864702756
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "b871f26a-9229-4749-807a-ebf03aec8967",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 57,
+  "height": 39,
+  "platformSettings": {},
+  "subMetas": {
+    "tele_land_3": {
+      "ver": "1.0.6",
+      "uuid": "e1a8b179-1d7e-4b75-97ca-0b15cab191a5",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "b871f26a-9229-4749-807a-ebf03aec8967",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 57,
+      "height": 39,
+      "rawWidth": 57,
+      "rawHeight": 39,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

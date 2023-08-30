@@ -1,0 +1,22 @@
+{
+  "COLLECT_FLOWERS": {
+    "desc": "Hái hoa",
+    "id": 4,
+    "type": "COLLECT_FLOWERS"
+  },
+  "REACH_SCORE_TARGET": {
+    "desc": "Đạt điểm yêu cầu",
+    "id": 1,
+    "type": "REACH_SCORE_TARGET"
+  },
+  "REMOVE_ALL_BIG_BUDS": {
+    "desc": "Ngắt nụ hoa",
+    "id": 3,
+    "type": "REMOVE_ALL_BIG_BUDS"
+  },
+  "SPRING_CLEANING": {
+    "desc": "Dọn cỏ",
+    "id": 2,
+    "type": "SPRING_CLEANING"
+  }
+}
