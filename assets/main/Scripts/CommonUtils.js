@@ -20,7 +20,9 @@ var o = t("RankPanel"),
     m = t("BattleConfig"),
     v = t("GameConfig"),
     b = function () {
-        function t() { }
+        function t() {
+        }
+
         return Object.defineProperty(t, "popLayer", {
             get: function () {
                 return _.ui.getLayer(_.UILayer.Panel)
@@ -179,82 +181,40 @@ var o = t("RankPanel"),
                 return !!e && JSON.parse(e).level.v > DataManager.dm.player.level
             },
             t.ShowRank = function () {
-                var e = function () {
-                    t.GameLogin(!0, function (e) {
-                        if (window.FBInstant) {
-                            window.FBInstant
-                                .getLeaderboardAsync("my_leaderboard")
-                                .then(leaderboard => leaderboard.getEntriesAsync(10, 0))
-                                .then(entries => {
-                                    for (var i = 0; i < entries.length; i++) {
-                                        console.log(
-                                            entries[i].getRank() + '. ' +
-                                            entries[i].getPlayer().getName() + ': ' +
-                                            entries[i].getScore()
-                                        );
-                                        console.log(
-                                            entries[i].getPlayer().getPhoto()
-                                        )
-                                    }
-                                }).catch(error => console.error(error));
-                        }
-
-                        var n = {
-                            rankData: [
-                                {
-                                    idx: 2,
-                                    name: "test2",
-                                    score: 299
-                                },
-                                {
-                                    idx: 1,
-                                    name: "test1",
-                                    score: 300
-                                }
-                            ],
+                fetch("https://api.annalala.com/getLeaderboard")
+                    .then((response) => response.json())
+                    .then((data) => {
+                        let n = {
+                            rankData: data ? data : [],
                             myInfo: {
                                 stage: DataManager.dm.player.level,
                                 avatar: DataManager.dm.player.avatar,
-                                name: DataManager.dm.player.name
+                                name: DataManager.dm.player.name,
                             }
                         };
 
-                        var i = {
+                        let i = {
                             popLayer: t.popLayer,
                             worldData: n,
-                            onClosed: function () { }
+                            onClosed: function () {
+                            }
                         };
-                        o.default.show(i)
 
-                        // if (e)
-                        //     t.GetWorldRank(function (e) {
-                        //         n.rankData = e;
-                        //         var i = {
-                        //             popLayer: t.popLayer,
-                        //             worldData: n,
-                        //             onClosed: function () { }
-                        //         };
-                        //         o.default.show(i)
-                        //     });
-                        // else {
-                        //     var i = {
-                        //         popLayer: t.popLayer,
-                        //         worldData: n,
-                        //         onClosed: function () { }
-                        //     };
-                        //     o.default.show(i)
-                        // }
+                        if (window.FBInstant) {
+                            fetch("https://api.annalala.com/getPlayerInfo?" + new URLSearchParams({
+                                fbId: window.FBInstant.player.getID()
+                            }))
+                                .then((response) => response.json())
+                                .then((data) => {
+                                    n.myInfo = data
+                                    o.default.show(i)
+                                })
+                        } else {
+                            o.default.show(i)
+                        }
                     })
-                };
-                DataManager.dm.player.name && DataManager.dm.player.avatar ? e() : d.pm.Login().then(function (t) {
-                    g.Logger.debug("[WorldView Login] res:", t),
-                        DataManager.dm.loginRes = t,
-                        e()
-                }).catch(function () {
-                    e()
-                })
             },
             t
     }
-        ();
+    ();
 n.CommonUtils = b;

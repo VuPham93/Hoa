@@ -203,7 +203,7 @@ var s = t("DataManager"),
                                 this.lb_myidx.string = t.myRank + 1 + "",
                                 f.RankUtils.updateNodeSpriteFrame(this.opt.myInfo.avatar || s.dm.player.avatar, this.node_myavatar, !0),
                                 this.lb_myname.string = f.RankUtils.solveString(this.opt.myInfo.name, 12),
-                                this.lb_mystage.string = ~~this.opt.myInfo.stage + "★"
+                                this.lb_mystage.string = ~~this.opt.myInfo.score + "★"
                         } else
                             this.node_nodata.active = !0, this.slot_me.active = !1;
                         return [2]

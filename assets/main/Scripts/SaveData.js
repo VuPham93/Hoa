@@ -9,10 +9,8 @@ var o = t("GameConfig"),
     i = t("SaveDataConfig"),
     r = t("logger"),
     a = t("Utils"),
-    c = t("DataManager"),
     s = t("G"),
     l = t("GlobalEvents"),
-    u = t("NetworkManager"),
     p = t("PlatformManager"),
     f = function () {
         function t(t, e, n) {
@@ -100,18 +98,6 @@ var o = t("GameConfig"),
                 // }
 
                 if (window.FBInstant) {
-                    console.log(window.FBInstant.context.getID())
-                    console.log(window.FBInstant.context.getType())
-                    console.log(FBInstant.player.getName())
-                    console.log(FBInstant.player.getPhoto())
-                    console.log(FBInstant.player.getID())
-
-                    window.FBInstant.context
-                        .chooseAsync()
-                        .then(function() {
-                            console.log(window.FBInstant.context.getID());
-                        });
-
                     let fbData = {}
                     for (let key in i.SaveDataConfig.SaveKeyAdapter) {
                         let saveKey = key + "_" + o.GameConfig.GAME_MODEL
@@ -123,14 +109,24 @@ var o = t("GameConfig"),
                         let starsList = Object.keys(saveData.stars.v).map(key => saveData.stars.v[key])
                         let score = starsList.reduce((prev, curr) => prev + curr, 0)
 
-                        window.FBInstant.getLeaderboardAsync("my_leaderboard" + window.FBInstant.context.getID())
-                            .then(function (leaderboard) {
-                                return leaderboard.setScoreAsync(score, "{level:" + starsList.length + "}");
+                        fetch("https://api.annalala.com/addOrUpdatePlayerInfo?" + new URLSearchParams({
+                            fbId: window.FBInstant.player.getID(),
+                            name: window.FBInstant.player.getName(),
+                            photo: window.FBInstant.player.getPhoto(),
+                            score: score,
+                        }),
+                            {
+                                method: 'POST',
+                                headers: {
+                                    'Accept': 'application/json',
+                                    'Content-Type': 'application/json'
+                                }
+                            }
+                        )
+                            .then((response) => response.json())
+                            .then((data) => {
+                                console.log(data)
                             })
-                            .then(function (entry) {
-                                console.log(entry.getScore());
-                                console.log(entry.getExtraData());
-                            });
                     }
                 }
             },
