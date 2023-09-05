@@ -50,18 +50,12 @@ var o = t("GameConfig"),
                 this.addNode(new h(new d(i.SaveDataConfig.keyTimesTamp, 0, !1), e))
 
                 if (window.FBInstant) {
-                    let key = this.saveKey
-                    let timeStamp = this.timestamp
-                    let setValue = this.setValue
-                    window.FBInstant.player.getDataAsync([key]).then(function (data) {
-                        let fbData = data[key]
-                        if (fbData && timeStamp) {
-                            let fbDataTimestamp = fbData[i.SaveDataConfig.keyTimesTamp];
-                            if (fbDataTimestamp && parseInt(fbDataTimestamp) > timeStamp) {
-                                for (let r in fbData) {
-                                    let a = fbData[r];
-                                    setValue(r, a.v, !1)
-                                }
+                    window.FBInstant.player.getDataAsync([this.saveKey]).then((data) => {
+                        let fbData = data[this.saveKey]
+                        if (fbData) {
+                            for (let r in fbData) {
+                                let a = fbData[r];
+                                this.setValue(r, a.v, !1)
                             }
                         }
                     })
